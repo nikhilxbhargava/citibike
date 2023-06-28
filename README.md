@@ -1,9 +1,3 @@
----
-title: "about"
-author: "Nikhil Bhargava"
-output: html_document
----
-
 ## Author
 
 -   Nikhil Bhargava
@@ -19,7 +13,7 @@ A quick visualization of the Citibike usage in New York from 2013-2017. Comparin
 
 The original and official Citibike data is available on their website (<https://citibikenyc.com/system-data>) and has over 5 million data points. I used a dataset on Kaggle that randomly sampled 1% of the original data and also cleaned the data up a little.
 
-The data contains trip duration, start station, end station, and the longitudes/latitudes of each station. However to create a distance measure using the longitudes and latitudes of each station, we need to use the [Haversine Formula](https://en.wikipedia.org/wiki/Haversine_formula). These are all the pertinent measure used in this visualization
+The data contains trip duration, start station, end station, and the longitudes/latitudes of each station. However to create a distance measure using the longitudes and latitudes of each station, we need to use the [Haversine Formula](https://en.wikipedia.org/wiki/Haversine_formula). Worth noting that this isn't a very accurate depiction of speed as we only know the distance between the start and end station - the route the biker took will never be a straight line between those two stations.
 
 ## References
 
